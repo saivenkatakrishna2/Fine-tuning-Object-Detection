@@ -31,3 +31,27 @@ We  use transfer learning to '*teach*' the model to detect objects(cars), saving
 In our case we'll be using the `Mask R-CNN ResNet-50 FPN 3x` model pre-trained for COCO instance segmentation.
 
 Authors : Venkat Sai Vainala and Saivenkatakrishna Pallampati
+
+#### Theoretical and Practical knowledge on AI:
+
+To complete the project we need to know some concepts like : <br>
+**Transfer Learning:** It is the reuse of a pre-trained model on a new problem.  In our case we are using a pretrained model "Detectron2 model zoo" to train our model to detect the Object(car) in an image.<br>
+**Model Training**: This is the crucial step in the project, and in this project it  plays a main role in the creation of the model and training of the model and evaluating the performance of the model.<br>
+**Detectron2 framework**: It is an open-source computer vision framework which consists many pre-trained models.  In our project we take a pre-trained model named `Detectron2's model zoo` to train our model to detect the cars(objects).<br>
+**Labelme**: It is an open source image annotation tool, which is used to create annotations for object detection, classification, and segmentation for computer vision datasets.  We use this tool to label the images in the dataset which helps to train the model.<br>
+**Annotating images**: We need to know the process of annotating images using labelme, in which we are using the  images in the dataset.
+
+Author: Saivenkatakrishna Pallampati
+
+#### Ethical Considerations for Determining an AI system:
+
+To determine the legitimate use of AI system we need to consider the following properties:<br>
+**Accuracy**: The most important property for an AI system is Accuracy, because it needs to produce the outputs accurately and relatively to the inputs provided by the user. So in our project it is one of the most important 
+property we are considering to evaluate the model performance.<br>
+**Robustness**: Robustness relates to the **Accuracy**.  Our AI system should correctly recognize an input even though the input was adversarial. Model performance can be estimated by this property, we can also assess the accuracy of the model.<br>
+**Accountability**: It means Safety and the outcome of the AI system should not harm the society.  Our AI system will detect object, and it doesn't show any bias while detecting the object. 
+We need to consider these as the key properties of a legitimate AI system.<br>
+**Interpretability**: It means **Usability** in simple words how easy to understand the outcome of the AI system(in our case).  End user is the important for any product, so we should consider them while training a model.<br>
+**Ethical**: It includes Privacy, which considers the protection of an Individual identity and data. It also relates to Accountability. In the dataset the data which are using for training should be an ethical manner. The outcomes also must be in ethical manner.
+
+Author: Saivenkatakrishna Pallampati
