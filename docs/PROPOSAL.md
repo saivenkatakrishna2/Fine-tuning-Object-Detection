@@ -17,7 +17,7 @@ In transfer learning, a machine exploits the knowledge gained from a previous ta
 In our case we are using `Detectron2's model zoo` as a Pre-trained model in our object detection to not training the model from the scratch.
 The main advantages are saving training time and not needing a lot of data. 
 
-Authors : Saivenkatakrishna Pallampati and Venkat Sai Vainala
+Authors: Sai Venkata Krishna Pallampati and Venkat Sai Vainala
 
 #### Public AI System:
 
@@ -30,7 +30,7 @@ We are using *"Detectron2 framework"* to investigate the type of AI system
 We  use transfer learning to '*teach*' the model to detect objects(cars), saving us the Time and Computational resources of training a model from scratch. 
 In our case we'll be using the `Mask R-CNN ResNet-50 FPN 3x` model pre-trained for COCO instance segmentation.
 
-Authors : Venkat Sai Vainala and Saivenkatakrishna Pallampati
+Authors: Sai Venkata Krishna Pallampati and Venkat Sai Vainala
 
 #### Theoretical and Practical knowledge on AI:
 
@@ -41,7 +41,18 @@ To complete the project we need to know some concepts like : <br>
 **Labelme**: It is an open source image annotation tool, which is used to create annotations for object detection, classification, and segmentation for computer vision datasets.  We use this tool to label the images in the dataset which helps to train the model.<br>
 **Annotating images**: We need to know the process of annotating images using labelme, in which we are using the  images in the dataset.
 
-Author: Saivenkatakrishna Pallampati
+Author: Sai Venkata Krishna Pallampati <br>
+Reviewer: Venkat sai Vainala
+
+#### Resources and Tools Used in AI System:
+
+**Tools**: We have taken the `LabelMe` tool in our AI system to create annotations for the images in our dataset.  
+**Platforms**: `Amazon SageMaker Studio Lab` is the platform used in our project. We need to train our model in GPU instance, so we are utilizing this `Amazon SageMaker Studio Lab` to train, test and validate the model.
+**Libraries**: We use a framework known as `Detectron2`, where we make use of a pre-trained model from the 'model zoo.' In our project, we use the `Detectron2` framework, which is used for object detection and image analysis. Within this framework, we take a pre-trained model obtained from the `model zoo` to obtain existing knowledge and features for our project. 
+**Dataset**: We work with a dataset named `Car License Plate detection` which is taken from `Kaggle`. Our AI system's is focused on car detection, and we apply transfer learning techniques to improve its performance. The dataset is developed by `Larxel`, it contains 433 images but for our project we are going to take 100 images from this dataset and train our model.
+
+Author: Venkat Sai Vainala <br>
+Reviewer: Sai Venkata Krishna Pallampati
 
 #### Ethical Considerations for Determining an AI system:
 
@@ -54,4 +65,40 @@ We need to consider these as the key properties of a legitimate AI system.<br>
 **Interpretability**: It means **Usability** in simple words how easy to understand the outcome of the AI system(in our case).  End user is the important for any product, so we should consider them while training a model.<br>
 **Ethical**: It includes Privacy, which considers the protection of an Individual identity and data. It also relates to Accountability. In the dataset the data which are using for training should be an ethical manner. The outcomes also must be in ethical manner.
 
-Author: Saivenkatakrishna Pallampati
+Author: Sai Venkata Krishna Pallampati <br>
+Reviewer: Venkat sai Vainala
+
+#### Ethical considerations for developing a safe and trustworthy AI system:
+
+We should consider below concepts for developing a safe and trustworthy AI system.<br>
+**Safety**: It means the developed AI system shouldn't cause any kind harm to the end user/society. In our project we are using
+ethical data which doesn't harm any end user/society in means of data loss.<br>
+**Transparency**: The AI system should be clear while producing the outputs to the user. Our model maintain transparency while developing<br>
+**Privacy**: Privacy means protecting the people identity and data.  In our project while developing an AI system we will consider this as the main feature.<br>
+**Reliability**: It means Accuracy, whether the system is doing the right thing.  In our case, while developing an AI system we should consider this because we should provide the right output accurately.
+
+Author: Venkat Sai Vainala <br>
+Reviewer: Sai Venkata Krishna Pallampati
+
+#### References:
+
+“Getting Started with Object Detection Using Deep Learning - MATLAB & Simulink.” Accessed November 7, 2023. <br>
+https://www.mathworks.com/help/vision/ug/getting-started-with-object-detection-using-deep-learning.html.
+
+“What Is Transfer Learning? A Guide for Deep Learning | Built In.” Accessed November 7, 2023. <br>
+https://builtin.com/data-science/transfer-learning.
+
+"LabelMe tool" <br>
+http://labelme.csail.mit.edu/Release3.0/ <br>
+https://github.com/wkentaro/labelme
+
+"Detectron2 Model Zoo and Baselines" <br>
+https://github.com/facebookresearch/detectron2/blob/main/MODEL_ZOO.md
+
+"Detectron2" <br>
+https://github.com/facebookresearch/detectron2/tree/main
+
+"Car License Plate Detection" <br>
+https://www.kaggle.com/datasets/andrewmvd/car-plate-detection
+
+Authors: Venkat sai Vainala and Sai Venkata Krishna Pallampati
