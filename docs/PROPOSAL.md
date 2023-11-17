@@ -2,20 +2,20 @@
 Authors: Sai venkat krishna Pallampati, Venkat sai Vainala<br>
 Date: 11/05/23
 #### AI System Types:
-We are using "**Deep Learning with Transfer Learning**" because we need to detect object in an image.<br>
+We are using "*Deep Learning with Transfer Learning*" because we need to detect object in an image.<br>
 Why?<br>
-**Deep Learning**:<br>
-Object detection and instance segmentation can be done using **Deep learning** provides a fast and accurate means to predict the 'location' of an Object in an Image.
-Deep learning is a powerful Machine Learning technique in which the object detector automatically learns image features required for detection tasks.<br>
-Several techniques for Object Detection using Deep Learning are available such as `Faster R-CNN`, `you only look once` (YOLO) v2, YOLO v3, YOLO v4, YOLOX, and single shot detection (SSD).
-Deep Learning models commonly used for Image Understanding.
 
-**Transfer Learning** : 
+*Deep Learning*: A machine learning technique used for detecting objects.  Deep Learning helps to find the exact location of the object in an image.
+We use object detection to detect objects in Image.  There are many techniques used for object detection that includes deep learning they are :
+* Faster R-CNN
+* You ONly Look Once(YOLO)v2, YOLO v3 and YOLO v4.(Getting Started with Object Detection Using Deep Learning)(mathworks)
 
-Transfer learning, used in Machine learning, is the reuse of a pre-trained model on a new problem. 
-In transfer learning, a machine exploits the knowledge gained from a previous task to improve generalization about another. <br> 
-In our case we are using `Detectron2's model zoo` as a Pre-trained model in our object detection to not training the model from the scratch.
-The main advantages are saving training time and not needing a lot of data. 
+*Transfer Learning*: The process of training a new model with the help of a pre-trained model which trains on a large dataset leads to save the training time and computational resources.
+"They are some pre-trained models like *Detectron2, **ResNet, **VGG, **Inception* and MobileNet."[("What are some of the most popular and widely used pre-trained models for deep learning?")](https://www.linkedin.com/advice/0/what-some-most-popular-widely-used-pre-trained?utm_source=share&utm_medium=guest_desktop&utm_campaign=copy)
+
+In our case we selected our AI system as `Deep Learning with Transfer Learning` because we use: 
+Deep learning to detect the objects 
+Transfer learning to use a pre-trained model `Detectron2's model zoo` in our training.
 
 Authors: Sai Venkata Krishna Pallampati and Venkat Sai Vainala
 
@@ -35,7 +35,7 @@ Authors: Sai Venkata Krishna Pallampati and Venkat Sai Vainala
 #### Theoretical and Practical knowledge on AI:
 
 To complete the project we need to know some concepts like : <br>
-**Transfer Learning:** It is the reuse of a pre-trained model on a new problem.  In our case we are using a pretrained model "Detectron2 model zoo" to train our model to detect the Object(car) in an image.<br>
+**Transfer Learning:** "It is the reuse of a pre-trained model on a new problem. In our case we are using a pretrained model `Detectron2 model zoo` to train our model to detect the Object(car) in an image." [("What Is Transfer Learning? Exploring the Popular Deep Learning Approach.")]("https://builtin.com/data-science/transfer-learning?__cf_chl_captcha_tk__=pmd_MRmvF4OVA.fDENN3mWFKz4U0NT")("Niklas Donges")
 **Model Training**: This is the crucial step in the project, and in this project it  plays a main role in the creation of the model and training of the model and evaluating the performance of the model.<br>
 **Detectron2 framework**: It is an open-source computer vision framework which consists many pre-trained models.  In our project we take a pre-trained model named `Detectron2's model zoo` to train our model to detect the cars(objects).<br>
 **Labelme**: It is an open source image annotation tool, which is used to create annotations for object detection, classification, and segmentation for computer vision datasets.  We use this tool to label the images in the dataset which helps to train the model.<br>
@@ -100,5 +100,8 @@ https://github.com/facebookresearch/detectron2/tree/main
 
 "Car License Plate Detection" <br>
 https://www.kaggle.com/datasets/andrewmvd/car-plate-detection
+
+"What are some of the most popular and widely used pre-trained models for deep learning?" <br>
+https://www.linkedin.com/advice/0/what-some-most-popular-widely-used-pre-trained?utm_source=share&utm_medium=guest_desktop&utm_campaign=copy
 
 Authors: Venkat sai Vainala and Sai Venkata Krishna Pallampati
