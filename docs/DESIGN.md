@@ -36,3 +36,37 @@ We use `Bounding Boxes` to identify our object in the image. And the final step 
 
 Author: Venkatsai Vainala <br>
 Reviewer: Saivenkatakrishna Pallampati
+
+#### Project Milestones and Deliverables
+The divided project plan for each week is given below:
+
+| Week1                                                                                                                                                                                           | Week2                                                                                                                                           | Week3                                                                                                                                                                                                   | Week4                                                                                                                                                          | Week5                                                                                                                                                      |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Task 1- finding dataset, writing proposal, writing design, gathering required frameworks and models for fine-tuning.                                          Author: Venkat Sai Vainala        | Task 1- labelling images in dataset       Author: Venkat Sai Vainala                                                                            | Task 1-  Environment setup, code implementation.                                                    Author: Venkat Sai Vainala                                                                          | Task 1- Evaluating model performance with  our dataset.                                                          Author: Venkat Sai Vainala                    | Task 1- PPT Preparation for demo, document preparation.                                                                        Author: Venkat Sai Vainala  |
+| Task 2- finding dataset, writing proposal, writing design, reviewing frameworks and models for fine-tuning.                                                Author: Saivenkatakrishna Pallampati | Task 2-- labelling images in dataset.                                                                      Author: Saivenkatakrishna Pallampati | Task 2- dataset setup and gathering annotated images required to train the model, code implementation.                                                             Author: Saivenkatakrishna Pallampati | Task 2- fixing Errors and finalizing report.                                                                              Author: Saivenkatakrishna Pallampati | Task 2- Demo preparation, document preparation.                                                                       Author: Saivenkatakrishna Pallampati |
+
+
+Authors: Venkat Sai Vainala and Saivenkatakrishna Pallampati
+
+#### References:
+References:
+“Getting Started with Object Detection Using Deep Learning - MATLAB & Simulink.” Accessed November
+7, 2023.
+https://www.mathworks.com/help/vision/ug/getting-started-with-object-detection-using-deeplearning.html.
+“What Is Transfer Learning? A Guide for Deep Learning | Built In.” Accessed November 7, 2023.
+https://builtin.com/data-science/transfer-learning.
+"LabelMe tool"
+http://labelme.csail.mit.edu/Release3.0/
+https://github.com/wkentaro/labelme
+"Detectron2 Model Zoo and Baselines"
+https://github.com/facebookresearch/detectron2/blob/main/MODEL_ZOO.md
+"Detectron2"
+https://github.com/facebookresearch/detectron2/tree/main
+"Car License Plate Detection"
+https://www.kaggle.com/datasets/andrewmvd/car-plate-detection
+AWS. 2023. “What Is Deep Learning? - Deep Learning Explained - AWS.” Amazon Web Services, Inc. 2023. 
+https://aws.amazon.com/what-is/deep-learning/.
+"Machine Learning Service - Amazon SageMaker"
+https://aws.amazon.com/pm/sagemaker/?gclid=Cj0KCQiApOyqBhDlARIsAGfnyMqLF8yVUkzroO0bt8UlygBdIaY5KuE_63F_DfWTcYXHVt77HSPl3X4aAjAQEALw_wcB&trk=b6c2fafb-22b1-4a97-a2f7-7e4ab2c7aa28&sc_channel=ps&ef_id=Cj0KCQiApOyqBhDlARIsAGfnyMqLF8yVUkzroO0bt8UlygBdIaY5KuE_63F_DfWTcYXHVt77HSPl3X4aAjAQEALw_wcB:G:s&s_kwcid=AL!4422!3!651751060698!p!!g!!amazon%20sagemaker%20studio!19852662230!145019226177
+https://studiolab.sagemaker.aws/
+Authors: Saivenkatakrishna Pallampati
