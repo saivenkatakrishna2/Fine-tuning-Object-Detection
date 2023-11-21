@@ -51,22 +51,22 @@ Authors: Venkat Sai Vainala and Saivenkatakrishna Pallampati
 #### References:
 References:
 “Getting Started with Object Detection Using Deep Learning - MATLAB & Simulink.” Accessed November
-7, 2023.
-https://www.mathworks.com/help/vision/ug/getting-started-with-object-detection-using-deeplearning.html.
-“What Is Transfer Learning? A Guide for Deep Learning | Built In.” Accessed November 7, 2023.
-https://builtin.com/data-science/transfer-learning.
-"LabelMe tool"
-http://labelme.csail.mit.edu/Release3.0/
-https://github.com/wkentaro/labelme
-"Detectron2 Model Zoo and Baselines"
-https://github.com/facebookresearch/detectron2/blob/main/MODEL_ZOO.md
-"Detectron2"
-https://github.com/facebookresearch/detectron2/tree/main
-"Car License Plate Detection"
-https://www.kaggle.com/datasets/andrewmvd/car-plate-detection
-AWS. 2023. “What Is Deep Learning? - Deep Learning Explained - AWS.” Amazon Web Services, Inc. 2023. 
-https://aws.amazon.com/what-is/deep-learning/.
-"Machine Learning Service - Amazon SageMaker"
-https://aws.amazon.com/pm/sagemaker/?gclid=Cj0KCQiApOyqBhDlARIsAGfnyMqLF8yVUkzroO0bt8UlygBdIaY5KuE_63F_DfWTcYXHVt77HSPl3X4aAjAQEALw_wcB&trk=b6c2fafb-22b1-4a97-a2f7-7e4ab2c7aa28&sc_channel=ps&ef_id=Cj0KCQiApOyqBhDlARIsAGfnyMqLF8yVUkzroO0bt8UlygBdIaY5KuE_63F_DfWTcYXHVt77HSPl3X4aAjAQEALw_wcB:G:s&s_kwcid=AL!4422!3!651751060698!p!!g!!amazon%20sagemaker%20studio!19852662230!145019226177
-https://studiolab.sagemaker.aws/
-Authors: Saivenkatakrishna Pallampati
+7, 2023.<br>
+https://www.mathworks.com/help/vision/ug/getting-started-with-object-detection-using-deeplearning.html. <br>
+“What Is Transfer Learning? A Guide for Deep Learning | Built In.” Accessed November 7, 2023. <br>
+https://builtin.com/data-science/transfer-learning. <br>
+"LabelMe tool"<br>
+http://labelme.csail.mit.edu/Release3.0/ <br>
+https://github.com/wkentaro/labelme <br>
+"Detectron2 Model Zoo and Baselines" <br>
+https://github.com/facebookresearch/detectron2/blob/main/MODEL_ZOO.md <br>
+"Detectron2" <br>
+https://github.com/facebookresearch/detectron2/tree/main <br>
+"Car License Plate Detection" <br>
+https://www.kaggle.com/datasets/andrewmvd/car-plate-detection <br>
+AWS. 2023. “What Is Deep Learning? - Deep Learning Explained - AWS.” Amazon Web Services, Inc. 2023. <br> 
+https://aws.amazon.com/what-is/deep-learning/. <br>
+"Machine Learning Service - Amazon SageMaker" <br>
+https://aws.amazon.com/pm/sagemaker/?gclid=Cj0KCQiApOyqBhDlARIsAGfnyMqLF8yVUkzroO0bt8UlygBdIaY5KuE_63F_DfWTcYXHVt77HSPl3X4aAjAQEALw_wcB&trk=b6c2fafb-22b1-4a97-a2f7-7e4ab2c7aa28&sc_channel=ps&ef_id=Cj0KCQiApOyqBhDlARIsAGfnyMqLF8yVUkzroO0bt8UlygBdIaY5KuE_63F_DfWTcYXHVt77HSPl3X4aAjAQEALw_wcB:G:s&s_kwcid=AL!4422!3!651751060698!p!!g!!amazon%20sagemaker%20studio!19852662230!145019226177 <br>
+https://studiolab.sagemaker.aws/ <br>
+Authors: Saivenkatakrishna Pallampati 
